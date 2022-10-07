@@ -1,0 +1,38 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+
+.card {
+  width: 420px;
+  height: 380px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border: solid 1px transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  color: #334155;
+  font-weight: 500;
+}
+
+.button {
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 120px;
+}
+
+.para {
+  color: #1e293b;
+  font-weight: 500;
+}
